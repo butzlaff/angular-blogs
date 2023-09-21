@@ -1,8 +1,24 @@
 .container__big_card {
   border: solid white 2px;
   width: 48rem;
-  height: 32rem;
+  height: 36rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.5rem;
+}
+
+.big__card__title > a > h2 {
+  font-size: 2.5rem;
+}
+
+.big_card__description__text {
+  margin-top: 1rem;
+  color: grey;
+}
+
+big_card__picture__img {
+  width: 100%;
+  min-width: 40rem;
 }
