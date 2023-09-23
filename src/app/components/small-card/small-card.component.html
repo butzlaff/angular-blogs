@@ -1,23 +1,22 @@
-<div class="container__small__card">
+<div class="container__small__card" *ngFor="let post of posts; let index">
   <div class="small__card__picture">
     <img 
-      src="https://picsum.photos/600/600" 
-      alt="big card picture"
+      src={{post.image}} 
+      alt="Picture from Post {{post.title}}"
       class="small__card__picture__img"
     >
   </div>
   <div>
-   
       <div class="small__card__title">
         <a [href]="'#'">
-          <h2 class="small__card__title__text">Lorem Ipsum</h2>
+          <h2 class="small__card__title__text">{{ post.title }}</h2>
         </a>
       </div>
       <div class="small__card__description">
         <a href="#">
         <p class="small__card__description__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus ligula ex, tempor sed velit et, dapibus hendrerit nulla.  
+          {{ post.description.slice(0, 150)}}
+          <a href="#">...ler mais</a>
         </p>
       </a>
       </div>
