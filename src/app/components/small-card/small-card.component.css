@@ -1,12 +1,13 @@
 .container__small__card {
   border: solid white 2px;
   width: 48rem;
-  height: 36rem;
+  height: 12rem;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
   padding: 1.5rem;
+  margin-left: 1rem;
 }
 
 .small__card__description__text {
@@ -16,4 +17,14 @@
 
 .small__card__title__text {
   margin-top: 1rem;
+}
+
+.small__card__picture__img {
+  width: 100%;
+  min-width: 6rem;
+  height: 6rem;
+}
+
+.small__card__picture {
+  margin-right: 1rem;
 }
