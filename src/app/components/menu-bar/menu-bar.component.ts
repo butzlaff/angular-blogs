@@ -13,12 +13,12 @@ export class MenuBarComponent {
   menuItems: MenuItem[] = [
     {
       name: 'Linkedin',
-      icon: 'linkedin',
+      icon: 'fa fa-linkedin',
       route: 'https://www.linkedin.com/in/emilio-butzlaff/'
     },
     {
       name: 'Github',
-      icon: 'github',
+      icon: 'fa fa-github',
       route: 'https://github.com/butzlaff'
     },
   ];
