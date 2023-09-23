@@ -1,18 +1,23 @@
 .container__small__card {
-  border: solid white 2px;
   width: 48rem;
-  height: 12rem;
+  height: 11.9rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 1.5rem;
-  margin-left: 1rem;
+  /* padding: 0rem; */
+  margin-left: 0.5rem;
 }
 
 .small__card__description__text {
   margin-top: 1rem;
-  color: grey;
+  color: white;
+}
+
+.small__card__description__text > a {
+  color: gray;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 .small__card__title__text {
@@ -21,8 +26,8 @@
 
 .small__card__picture__img {
   width: 100%;
-  min-width: 6rem;
-  height: 6rem;
+  min-width: 8rem;
+  height: 8.3rem;
 }
 
 .small__card__picture {

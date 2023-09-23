@@ -1,4 +1,5 @@
-<div class="container__small__card" *ngFor="let post of posts; let index">
+<div *ngFor="let post of posts; let index" class="container">
+<div class="container__small__card">
   <div class="small__card__picture">
     <img 
       src={{post.image}} 
@@ -15,10 +16,14 @@
       <div class="small__card__description">
         <a href="#">
         <p class="small__card__description__text">
-          {{ post.description.slice(0, 150)}}
-          <a href="#">...ler mais</a>
+          {{ post.description.slice(0, 160)}}
+          <a href="#">...leia mais</a>
         </p>
       </a>
       </div>
+    </div>
+  </div>
+  <div class="container__small__card__separator">
+    <hr />
   </div>
 </div>

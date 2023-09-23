@@ -1,6 +1,6 @@
 .articles {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row;
   justify-content: center;
   margin-top: 2rem;
 }
