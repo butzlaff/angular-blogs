@@ -1,9 +1,11 @@
 <div class="container__menu__bar">
-  <div>
-    <button>Home</button>
-    <button>Contato</button>
-    <button>TO BE DEFINED</button>
-    <button>TO BE DEFINED</button>
-  </div>
-  <div></div>
+  <ul *ngFor="let menuItem of menuItems; let index" >
+    <li class="menu__bar__item">
+      <span><i [className]='menuItem.icon'></i></span>
+      <a [href]="menuItem.route" class="menu__bar__item__link" target="_blank">
+        {{ menuItem.name }}
+      </a>
+    </li>
+  </ul>
+
 </div>

@@ -1,0 +1,27 @@
+.container__menu__bar > ul {
+  list-style-type: none;
+}
+
+.container__menu__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu__bar__item {
+  padding: 2rem 2rem 0;
+}
+
+/* .menu__bar__item > span {
+  margin: 0.1rem;
+} */
+
+.linkedin {
+  width: 1.4rem;
+  content: url("../../../assets/linkedin.png");
+}
+
+.github {
+  width: 1.4rem;
+  content: url("../../../assets/github.png");
+}
