@@ -1,3 +1,7 @@
+# Under construction
+
+<img src="https://cdn1.vectorstock.com/i/1000x1000/04/65/under-construction-sign-isolated-icon-vector-16660465.jpg" width="300px" height="300px">
+
 # BlogsAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
