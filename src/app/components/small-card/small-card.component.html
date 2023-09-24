@@ -9,15 +9,15 @@
   </div>
   <div>
       <div class="small__card__title">
-        <a [href]="'#'">
+        <a [routerLink]="['content', post.id]">
           <h2 class="small__card__title__text">{{ post.title }}</h2>
         </a>
       </div>
       <div class="small__card__description">
-        <a href="#">
-        <p class="small__card__description__text">
-          {{ post.description.slice(0, 160)}}
-          <a href="#">...leia mais</a>
+        <a [routerLink]="['content', post.id]">
+          <p class="small__card__description__text">
+          {{ post.description.slice(0, 150)}}
+          <a [routerLink]="['content', post.id]">...leia mais</a>
         </p>
       </a>
       </div>

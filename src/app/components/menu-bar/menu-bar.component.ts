@@ -20,6 +20,6 @@ export class MenuBarComponent {
       name: 'Github',
       icon: 'fa fa-github',
       route: 'https://github.com/butzlaff'
-    },
+    }
   ];
 }

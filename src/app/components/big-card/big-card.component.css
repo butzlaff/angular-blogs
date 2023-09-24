@@ -26,4 +26,5 @@
   width: 100%;
   min-width: 45rem;
   height: 18rem;
+  object-fit: cover;
 }

@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class MenuTitleComponent {
 
+  private _blogTittle: string = '';
+  constructor() { }
+  ngOnInit(): void {
+    this._blogTittle = 'Tecnologias Front-end';
+  }
+
+  get blogTittle(): string {
+    return this._blogTittle;
+  }
 }
